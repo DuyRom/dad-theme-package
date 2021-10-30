@@ -1,0 +1,33 @@
+{
+    "name": "duynguyen/dadtheme",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Duynguyen\\Dadtheme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DuyRom",
+            "email": "duyit192@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/contracts": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.10"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Duynguyen\\Dadtheme\\Providers\\DadboardThemeServiceProvider"
+            ]
+        }
+    }
+}

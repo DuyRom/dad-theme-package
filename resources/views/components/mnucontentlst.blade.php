@@ -1,0 +1,1 @@
+<li {{$attributes}}><a data-pjax href="{{$attributes['link']}}"><i class="feather {{$attributes['icon']}}"></i><span class="menu-item">{{$attributes['label']}}</span></a></li>

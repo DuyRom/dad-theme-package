@@ -1,0 +1,1 @@
+<li class="breadcrumb-item"><a href="{{$attributes['link']}}">{{$attributes['label']}}</a></li>
