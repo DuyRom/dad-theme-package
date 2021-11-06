@@ -1,0 +1,1 @@
+<a class="dropdown-item" href="{{$attributes['link']}}"><i class="feather {{$attributes['icon']}}"></i>{{$attributes['label']}}</a>

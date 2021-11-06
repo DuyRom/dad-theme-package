@@ -31,6 +31,9 @@ class DadboardThemeServiceProvider extends ServiceProvider
        		'dad-head'=>'dad-head',
        		'dad-footer'=>'dad-footer',
        		'dad-body'=>'dad-body',
+          'dropdown-user'=>'dropdown-user',
+          'left-header'=>'left-header',
+          'notify-header'=>'notify-header',
        	]);
        	$this->publishes([
 	        __DIR__.'/../../resources/assets/' => public_path('vendor/dadtheme'),
