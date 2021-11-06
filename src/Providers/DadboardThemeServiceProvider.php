@@ -36,8 +36,8 @@ class DadboardThemeServiceProvider extends ServiceProvider
 	        __DIR__.'/../../resources/assets/' => public_path('vendor/dadtheme'),
 	    ], 'public');
 	
-	    // $this->publishes([__DIR__.'/../../resources/views/components' => resource_path('views/vendor/dadtheme'),
-	    // ]);
+	    $this->publishes([__DIR__.'/../../resources/views/components' => resource_path('views/vendor/dadtheme'),
+	    ]);
 
     }
 
