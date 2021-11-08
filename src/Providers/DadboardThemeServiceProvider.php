@@ -13,7 +13,7 @@ class DadboardThemeServiceProvider extends ServiceProvider
     	$this->loadRoutesFrom(__DIR__.'/../../routes/dashboard-theme.php');
     	$this->loadViewsFrom(__DIR__.'/../../resources/views', 'dashboard-theme');
     	$this->loadViewsFrom(__DIR__.'/../../resources/views/components', 'elements');
-       	$this->bladeViewComponent('elements',[
+      $this->bladeViewComponent('elements',[
        		'app-content'=>'app-content',
        		'crumb-item'=>'brd-crumb-item',
        		'crumb'=>'brd-crumb',
@@ -38,8 +38,9 @@ class DadboardThemeServiceProvider extends ServiceProvider
           'row-col'=>'row-col',
           'hol-form-group'=>'hol-form-group',
           'hol-form-input'=>'hol-form-input',
-       	]);
-       	$this->publishes([
+          'file-input'=>'file-input',
+      ]);
+      $this->publishes([
 	        __DIR__.'/../../resources/assets/' => public_path('vendor/dadtheme'),
 	    ], 'public');
 	
@@ -51,7 +52,7 @@ class DadboardThemeServiceProvider extends ServiceProvider
     public function bladeViewComponent($view,array $components)
     {
     	foreach ($components as $prefix => $component) {
-			Blade::component($view."::".$component,$prefix);
-		}
+        Blade::component($view."::".$component,$prefix);
+		  }
     }
 }

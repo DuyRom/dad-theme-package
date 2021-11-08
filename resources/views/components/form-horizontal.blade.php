@@ -1,4 +1,4 @@
-<form class="form form-horizontal">
+<form {{$attributes->merge(['class'=>'form form-horizontal'])}}>
     <div class="form-body">
         <div class="row">
             {{$rowContent ?? ''}}
