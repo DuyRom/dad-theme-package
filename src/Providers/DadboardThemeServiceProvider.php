@@ -40,6 +40,7 @@ class DadboardThemeServiceProvider extends ServiceProvider
           'hol-form-input'=>'hol-form-input',
           'file-input'=>'file-input',
           'hol-form-button'=>'hol-form-button',
+          'hol-layout'=>'hol-layout',
       ]);
       $this->publishes([
 	        __DIR__.'/../../resources/assets/' => public_path('vendor/dadtheme'),
