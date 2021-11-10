@@ -46,10 +46,10 @@ class DadboardThemeServiceProvider extends ServiceProvider
           'js-form'=>'js-form',
       ]);
       $this->publishes([
-	        __DIR__.'/../../resources/assets/' => public_path('vendor/dadtheme'),
+	        __DIR__.'/../../resources/assets/' => public_path('duynguyen/dadtheme'),
 	    ], 'public');
 	
-	    $this->publishes([__DIR__.'/../../resources/views/components' => resource_path('views/vendor/dadtheme'),
+	    $this->publishes([__DIR__.'/../../resources/views/components' => resource_path('views/duynguyen/dadtheme'),
 	    ]);
 
     }
