@@ -43,6 +43,7 @@ class DadboardThemeServiceProvider extends ServiceProvider
           'hol-layout'=>'hol-layout',
           'basic-datatable'=>'basic-datatable',
           'css-datatable'=>'css-datatable',
+          'js-datatable'=>'js-datatable',
       ]);
       $this->publishes([
 	        __DIR__.'/../../resources/assets/' => public_path('vendor/dadtheme'),
