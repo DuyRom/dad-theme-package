@@ -1,6 +1,6 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
 <!-- BEGIN: duynguyen CSS-->
-<link rel="stylesheet" type="text/css" href="{{asset('/duynguyen/dadtheme/css/duynguyens.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('/duynguyen/dadtheme/css/vendors.min.css')}}">
 <!-- END: duynguyen CSS-->
 <!-- BEGIN: PJax JS-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

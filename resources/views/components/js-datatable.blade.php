@@ -1,4 +1,4 @@
-<script defer  src="{{asset('/duynguyen/dadtheme/js/duynguyens.min.js')}}"></script>
+<script defer  src="{{asset('/duynguyen/dadtheme/js/vendors.min.js')}}"></script>
 <script defer src="{{asset('/duynguyen/dadtheme/js/datatable/pdfmake.min.js')}}"></script> 
 <script defer  src="{{asset('/duynguyen/dadtheme/js/datatable/vfs_fonts.js')}}"></script> 
 <script defer src="{{asset('/duynguyen/dadtheme/js/datatable/datatables.min.js')}}"></script> 
