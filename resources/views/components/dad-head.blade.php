@@ -18,3 +18,4 @@
 <!-- BEGIN: Page CSS-->
 <link rel="stylesheet" type="text/css" href="{{asset('/vendor/dadtheme/css/vertical-menu.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('/vendor/dadtheme/css/palette-gradient.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('/vendor/dadtheme/css/datatable/datatables.min.css')}}">

@@ -1,1 +1,0 @@
-<link rel="stylesheet" type="text/css" href="{{asset('/vendor/dadtheme/css/datatable/datatables.min.css')}}">
